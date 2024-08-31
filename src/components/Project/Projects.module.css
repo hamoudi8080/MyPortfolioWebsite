@@ -1,0 +1,125 @@
+@import "../../vars.css";
+
+
+.container {
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    box-shadow: 0 16px 14px 0 #04152d;
+
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: start;
+    color: var(--color-text);
+    margin-top: 10px;
+}
+
+
+img {
+    margin: 10px;
+
+    z-index: 1;
+}
+
+.card p {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.cardTitle{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+     
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-secondary);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    max-width: 400px;
+    height: 560px;
+    gap: 5px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btns {
+    display: flex;
+
+    margin-top: 10px;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.lbtn {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    width: 200px;
+    text-align: center;
+
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+    /* Remove default list markers */
+
+
+
+
+
+
+
+}
+
+.list li {
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+
+
+}
+
+.listAndButton {
+   margin-bottom: 10px;
+}

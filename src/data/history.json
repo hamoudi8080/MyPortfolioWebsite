@@ -1,0 +1,22 @@
+[
+ 
+  {
+    "role": "Pc and Laptops software installer",
+    "organisation": "",
+    "startDate": "jan, 2011",
+    "endDate": "feb, 2012",
+    "experiences": ["Worked on installing softwares and games, and windows Oprating systems on customer's computers", "Build Pc based on customer's requirements"],
+    "imageSrc": "history/repair.png"
+  },
+  {
+    "role": "Power Apps platform Intern and student-worker",
+    "organisation": "Redhorse",
+    "startDate": "feb, 2023",
+    "endDate": "Jun, 2024",
+    "experiences": [
+      "Worked on create apps and solving various problems using power apps.",
+      "Worked on creating flows using power automate and integrating with power apps."
+    ],
+    "imageSrc": "history/redhorse.png"
+  }
+]

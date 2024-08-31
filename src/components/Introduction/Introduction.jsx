@@ -9,8 +9,17 @@ const Introduction = () => {
                 <h1 className={Style.title}>
                     Hey, I'm Mo ali Resho
                 </h1>
-                <p className={Style.description}>I'm a full-stack developer using different programming languages like C#, javascript, java sql. reach me to learn more..</p>
+                <p className={Style.description}> Software development with use of different
+                    technologies for me is a passion and a playground where I enjoy making well-structured and efficient solutions for
+                    whatever challenges tossed at me.I have gained a great skill set within Web, APIs, databases
+                    development, but more importantly I possess an engineering mindset that enables me to learn new stuff, adapt and execute
+                    quickly. It also worth mentioning that I gained communications skills during my study, internship, student worker time.</p>
+                <div className={Style.Btns}>
                     <a className={Style.contactBtn} href="mailto:hamoderaso@outlook.com ">Contact Me</a>
+                    <a className={Style.contactBtn} href={getImageUrl("CV/my resume.pdf")}>Download CV</a>
+                </div>
+
+
             </div>
 
             <img src={getImageUrl("hero/myImg.png")} alt="introImageOfMe" className={Style.introImg} />

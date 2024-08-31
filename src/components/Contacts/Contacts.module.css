@@ -1,0 +1,77 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: 100px;
+    background-color: var(--color-secondary);
+    padding: 58px 10%;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+    color: var(--color-text);
+
+
+
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: var(--color-text);
+    width: 50%;
+}
+
+.contactItems {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--color-text);
+    width: 50%;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.details p {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+.contactItem img {
+    cursor: pointer;
+}
+
+@media  screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+    }
+     
+
+    .contactItems {
+        margin-top: 20px;
+    }
+    .details p {
+        font-size: 15px;
+         
+         width: 100%;
+    }
+ 
+    
+}

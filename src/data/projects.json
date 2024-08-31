@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Sep6 MovieHub Project",
+    "imageSrc": "projects/project.png",
+    "description": "Engineered a cloud-driven social hub for movie enthusiasts on Microsoft Azure  emphasizing user interaction and content discovery. ",
+    "skills": ["Blzor", "C#", "Docker","CI/CD", "Azure"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/hamoudi8080/SEP6_IMDB.git"
+  },
+  {
+    "title": "Bachelor project",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/hamoudi8080/Chatbot-Sep7.git"
+  },
+  {
+    "title": "System-Booking Hobby project",
+    "imageSrc": "projects/project.png",
+    "description": "This is a full-stack web application using the MERN stack (MongoDB, Express, React, Node) and Tailwind CSS. It is designed to be an Airbnb clone with all the main functionalities.",
+    "skills": ["React", "Express", "Node", "MongoDB", "tailwind"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/hamoudi8080/Booking-System.git"
+  }
+]
