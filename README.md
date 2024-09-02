@@ -3,6 +3,7 @@
 It is a personal website aims to provide a clear picture about my CV including my career's projects. 
 
 
+link: https://moaliresho97.netlify.app/
 
 
 
