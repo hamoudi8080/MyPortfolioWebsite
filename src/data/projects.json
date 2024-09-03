@@ -11,7 +11,7 @@
     "title": "Bachelor project",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "skills": ["Blazor", "C#", "HTML-CSS","CI/CD", "Machine Learning", "Azure-Cloud", "Docker"],
     "demo": "https://www.example.com",
     "source": "https://github.com/hamoudi8080/Chatbot-Sep7.git"
   },
@@ -19,7 +19,7 @@
     "title": "System-Booking Hobby project",
     "imageSrc": "projects/project.png",
     "description": "This is a full-stack web application using the MERN stack (MongoDB, Express, React, Node) and Tailwind CSS. It is designed to be an Airbnb clone with all the main functionalities.",
-    "skills": ["React", "Express", "Node", "MongoDB", "tailwind"],
+    "skills": ["React", "Express", "Node","HTML-CSS", "MongoDB", "tailwind"],
     "demo": "https://www.example.com",
     "source": "https://github.com/hamoudi8080/Booking-System.git"
   }

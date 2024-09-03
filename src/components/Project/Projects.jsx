@@ -6,7 +6,8 @@ const Projects = ({ project }) => {
     return (
         <section className={styles.container} id='projects'>
             <h1 className={styles.title}>Projects</h1>
-
+            <p className={styles.description}>Here are some of my projects that I have worked on. Click on the project to view the demo and source code.
+                 Many other project that Worked on will be on page soon </p>
             <div className={styles.cards}>
                 {
                     projects.map((project, id) => {
