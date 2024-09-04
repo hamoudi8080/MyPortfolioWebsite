@@ -10,7 +10,7 @@
   {
     "title": "Bachelor project",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "a chatbot system, using Blazor for frontend and C# in backend. The system allows admin to securely login and feed the system with information in pdf file more deatils in the github repo",
     "skills": ["Blazor", "C#", "HTML-CSS","CI/CD", "Machine Learning", "Azure-Cloud", "Docker"],
     "demo": "https://www.example.com",
     "source": "https://github.com/hamoudi8080/Chatbot-Sep7.git"

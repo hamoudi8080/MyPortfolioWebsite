@@ -3,6 +3,7 @@ import { getImageUrl } from '../../utils'
 import Style from './Introduction.module.css'
 //import Typewriter from './TypeWriter'
 import Typewriter from 'typewriter-effect';
+
 const Introduction = () => {
     return (
         <section className={Style.container}>

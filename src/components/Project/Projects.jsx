@@ -1,11 +1,28 @@
-import React from 'react'
-import styles from './Projects.module.css'
-import projects from '../../data/projects.json'
-import { getImageUrl } from '../../utils'
+import React, { useState, useEffect } from 'react';
+import styles from './Projects.module.css';
+import projects from '../../data/projects.json';
+import { getImageUrl } from '../../utils';
+import SweetAlert2 from 'react-sweetalert2';
+
 const Projects = ({ project }) => {
+    const [swalProps, setSwalProps] = useState({});
+
+    useEffect(() => {
+        setSwalProps({
+            show: true,
+            title: 'Warning',
+            text: 'This website is still under development. Some features may not work properly.',
+            icon: 'warning',
+        });
+    }, []);
+
     return (
         <section className={styles.container} id='projects'>
             <h1 className={styles.title}>Projects</h1>
+            <div>
+           
+            <SweetAlert2 {...swalProps} />
+        </div>
             <p className={styles.description}>Here are some of my projects that I have worked on. Click on the project to view the demo and source code.
                  Many other project that Worked on will be on page soon </p>
             <div className={styles.cards}>
