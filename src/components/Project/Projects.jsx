@@ -27,7 +27,7 @@ const Projects = ({ project }) => {
             <h1 className={styles.title}>Projects</h1>
             <div>
 
-                {/* <SweetAlert2 {...swalProps} /> */}
+                 <SweetAlert2 {...swalProps} />  
             </div>
             <p className={styles.description}>Here are some of my projects that I have worked on. Click on the project to view the demo and source code.
                 Many other project that Worked on will be on page soon </p>
