@@ -1,5 +1,4 @@
-
-/*import React from 'react'
+import React from 'react'
 import styles from './App.module.css'
 import Contacts from './components/Contacts/Contacts'
 import { Navbar } from './components/Navbar/Navbar'
@@ -8,7 +7,7 @@ import { useLocation } from 'react-router-dom';
 import stylesOfCardPage from './CardPage.module.css';
 import { getImageUrl } from './utils';
 
-const CardPage = () => {
+const MyCardPage = () => {
     const { id } = useParams();
 
     const location = useLocation();
@@ -75,5 +74,4 @@ const CardPage = () => {
     )
 }
 
-export default CardPage
-*/
+export default MyCardPage
