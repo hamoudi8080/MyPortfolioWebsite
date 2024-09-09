@@ -3,9 +3,7 @@ import MainPage from "./MainPage"
 import { BrowserRouter, Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import CardPage from "./cardPage";
-import About from "./components/About/About";
-import Contacts from "./components/Contacts/Contacts";
-import Projects from "./components/Project/Projects";
+ 
 
  
 

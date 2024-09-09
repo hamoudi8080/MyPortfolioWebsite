@@ -6,8 +6,10 @@ import SweetAlert2 from 'react-sweetalert2';
 import { useNavigate } from "react-router-dom";
 
 const Projects = ({ project }) => {
+
     const [swalProps, setSwalProps] = useState({});
     const navigate = useNavigate();
+    
     useEffect(() => {
         setSwalProps({
             show: true,
@@ -26,7 +28,6 @@ const Projects = ({ project }) => {
         <section className={styles.container} id='projects'>
             <h1 className={styles.title}>Projects</h1>
             <div>
-
                  <SweetAlert2 {...swalProps} />  
             </div>
             <p className={styles.description}>Here are some of my projects that I have worked on. Click on the project to view the demo and source code.
