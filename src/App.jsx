@@ -1,25 +1,27 @@
+import MainPage from "./MainPage"
 
-import styles from './App.module.css'
-import Introduction from './components/Introduction/Introduction'
-import { Navbar } from './components/Navbar/Navbar'
-import About from './components/About/About'
-import Experience from './components/Experience/Experience'
-import Projects from './components/Project/Projects'
-import Contacts from './components/Contacts/Contacts'
-function App() {
+import { BrowserRouter, Routes } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import CardPage from "./cardPage";
+import About from "./components/About/About";
+import Contacts from "./components/Contacts/Contacts";
+import Projects from "./components/Project/Projects";
+
  
 
+
+
+
+function App() {
+
+
   return (
-    <>
-      <div className={styles.App}> 
-        <Navbar/>
-        <Introduction/>
-        <About/>
-        <Experience />
-        <Projects/>
-        <Contacts />
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" Component={MainPage} />
+        <Route path="/card/:id" Component={CardPage} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

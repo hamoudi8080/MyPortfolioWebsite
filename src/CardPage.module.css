@@ -1,0 +1,167 @@
+@import "./vars.css";
+
+
+.container{ 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    margin: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.images {
+    display: flex;
+}
+
+.cardImg {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 25px;
+    
+}
+
+.columnImages {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.columnImages .cardImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+   
+     
+}
+
+.container p {
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-text);
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.skill{
+    margin: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-text);
+    list-style-type:circle;
+    
+}
+
+.skill:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-dark);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+
+.videoCard {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 560px;
+    margin: 20px auto;
+ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+.videoIframe {
+    width: 100%;
+    height: 315px; /* Adjust as needed */
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.lbtn {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    width: 200px;
+    text-align: center;
+
+}
+@media screen and (max-width: 830px) {
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .title {
+        margin: 10px;
+        font-size: 30px;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--color-text);
+        text-align: center;
+    }
+    .images {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .cardImg {
+        width: 100%;
+        height: 300px;
+    }
+    .columnImages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .columnImages .cardImg {
+        width: 100%;
+       
+    }
+    .videoCard {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #fff;
+    }
+}
